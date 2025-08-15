@@ -1,0 +1,182 @@
+:root {
+  /* ####################################################################### */
+  /* COLORS */
+  /* ####################################################################### */
+
+  --color--default-dark:         var(--color--bg-15);
+  --color--default-dark--hover:  var(--color--bg-20);
+  --color--default-dark--active: var(--color--bg-25);
+  --color--outline--default-dark: hsla(0, 0%, 15%, 33%);
+  --color--default-dark--alpha:  hsla(0, 0%, 15%, .1);
+
+  --color--default-light:         var(--color--bg-85);
+  --color--default-light--hover:  var(--color--bg-90);
+  --color--default-light--active: var(--color--bg-95);
+  --color--outline--default-light: hsla(0, 0%, 85%, 33%);
+  --color--default-light--alpha:  hsla(0, 0%, 85%, .1);
+
+  /* 
+        Modern Bianchi Celeste | Pantone 333C | #3cdabf | hsl(170, 68%, 55%)
+    Old school Bianchi Celeste | Pantone 332C | #8be2d1 | hsl(168, 60%, 72%)
+  */
+
+  --color--primary:         hsl(170, 68%, 55%);
+  --color--primary-dark:    hsl(170, 68%, 35%);
+  --color--primary--hover:  hsl(170, 68%, 60%);
+  --color--primary--active: hsl(170, 68%, 65%);
+  --color--outline--primary: hsla(170, 68%, 55%, 33%);
+  --color--primary--alpha:  hsla(170, 68%, 55%, .1);
+  
+  --color--success: hsla(120, 40%, 36%);
+  --color--success--hover: hsla(120, 40%, 40%);
+  --color--success--active: hsla(120, 40%, 44%);
+  --color--outline--success: hsla(120, 40%, 36%, 33%);
+  --color--success--alpha: hsla(120, 40%, 36%, .1);
+  
+  --color--info: hsla(220, 80%, 55%);
+  --color--info--hover: hsla(220, 80%, 59%);
+  --color--info--active: hsla(220, 80%, 63%);
+  --color--outline--info: hsla(220, 80%, 55%, 33%);
+  --color--info--alpha: hsla(220, 80%, 55%, .1);
+  
+  --color--error: hsla(0, 48%, 48%);
+  --color--error--hover: hsla(0, 48%, 52%);
+  --color--error--active: hsla(0, 48%, 56%);
+  --color--outline--error: hsla(0, 48%, 48%, 33%);
+  --color--error--alpha: hsla(0, 48%, 48%, .1);
+  
+  /* ======================================================= */
+  /* RAW COLORS */
+  /* ======================================================= */
+
+  /* ---------- LIGHT THEME ---------- */
+
+  /* background */
+  --color--bg-0:   hsl(0, 0%, 0%);
+  --color--bg-5:   hsl(0, 0%, 5%);
+  --color--bg-10:  hsl(0, 0%, 10%);
+  --color--bg-15:  hsl(0, 0%, 14%);
+  --color--bg-20:  hsl(0, 0%, 20%);
+  --color--bg-25:  hsl(0, 0%, 25%);
+  --color--bg-30:  hsl(0, 0%, 30%);
+  --color--bg-35:  hsl(0, 0%, 35%);
+  --color--bg-40:  hsl(0, 0%, 40%);
+  --color--bg-45:  hsl(0, 0%, 45%);
+  --color--bg-50:  hsl(0, 0%, 50%);
+  --color--bg-55:  hsl(0, 0%, 55%);
+  --color--bg-60:  hsl(0, 0%, 60%);
+  --color--bg-65:  hsl(0, 0%, 65%);
+  --color--bg-70:  hsl(0, 0%, 70%);
+  --color--bg-75:  hsl(0, 0%, 75%);
+  --color--bg-80:  hsl(0, 0%, 80%);
+  --color--bg-85:  hsl(0, 0%, 85%);
+  --color--bg-90:  hsl(0, 0%, 90%);
+  --color--bg-95:  hsl(0, 0%, 95%);
+  --color--bg-100: hsl(0, 0%, 100%);
+
+  /* foreground */
+  --color--fg-0:   hsl(0, 0%, 100%);
+  --color--fg-5:   hsl(0, 0%, 95%);
+  --color--fg-10:  hsl(0, 0%, 90%);
+  --color--fg-15:  hsl(0, 0%, 85%);
+  --color--fg-20:  hsl(0, 0%, 80%);
+  --color--fg-25:  hsl(0, 0%, 75%);
+  --color--fg-30:  hsl(0, 0%, 70%);
+  --color--fg-35:  hsl(0, 0%, 65%);
+  --color--fg-40:  hsl(0, 0%, 60%);
+  --color--fg-45:  hsl(0, 0%, 55%);
+  --color--fg-50:  hsl(0, 0%, 50%);
+  --color--fg-55:  hsl(0, 0%, 45%);
+  --color--fg-60:  hsl(0, 0%, 40%);
+  --color--fg-65:  hsl(0, 0%, 35%);
+  --color--fg-70:  hsl(0, 0%, 30%);
+  --color--fg-75:  hsl(0, 0%, 25%);
+  --color--fg-80:  hsl(0, 0%, 20%);
+  --color--fg-85:  hsl(0, 0%, 15%);
+  --color--fg-90:  hsl(0, 0%, 10%);
+  --color--fg-95:  hsl(0, 0%, 5%);
+  --color--fg-100: hsl(0, 0%, 0%);
+
+  /* ======================================================= */
+  /* APPLIED COLORS */
+  /* ======================================================= */
+
+  --box-shadow--soft: 0px 3px 10px #0000004f;
+  --box-shadow--default: 0px 6px 8px #0000008f;
+  --box-shadow--strong: 0px 7px 10px #000000ab;
+
+  --border-radius--default: 4px;
+  --border-radius--button: var(--border-radius--default);
+  --border-radius--select: var(--border-radius--default);
+
+  /* ####################################################################### */
+  /* SIZES */
+  /* ####################################################################### */
+
+  /* header height */
+  --height--header--phone:   6svh;
+  --height--header--tablet:  6svh;
+  --height--header--laptop:  6svh;
+  --height--header--desktop: 6svh;
+  
+  --height--header: var(--height--header--phone);
+  
+  /* Tablet */
+  @media (min-width : 767px) and (max-width : 1279px) { --height--header: var(--height--header--tablet); }
+  /* Laptop */
+  @media (min-width: 1280px) and (max-width: 1919px) { --height--header: var(--height--header--laptop); }
+  /* Desktop */
+  @media (min-width: 1920px) { --height--header: var(--height--header--desktop); }
+
+
+  /* main height */
+  --height--main--phone:   calc(100svh - var(--height--header) - var(--height--footer));
+  --height--main--tablet:  calc(100svh - var(--height--header) - var(--height--footer));
+  --height--main--laptop:  calc(100svh - var(--height--header) - var(--height--footer));
+  --height--main--desktop: calc(100svh - var(--height--header) - var(--height--footer));
+  
+  --height--main: var(--height--main--phone);
+  
+  /* Tablet */
+  @media (min-width : 767px) and (max-width : 1279px) { --height--main: var(--height--main--tablet); }
+  /* Laptop */
+  @media (min-width: 1280px) and (max-width: 1919px) { --height--main: var(--height--main--laptop); }
+  /* Desktop */
+  @media (min-width: 1920px) { --height--main: var(--height--main--desktop); }
+
+
+  /* footer height */
+  --height--footer--phone:   0svh;
+  --height--footer--tablet:  0svh;
+  --height--footer--laptop:  0svh;
+  --height--footer--desktop: 0svh;
+  
+  --height--footer: var(--height--footer--phone);
+
+  /* Tablet */
+  @media (min-width : 767px) and (max-width : 1279px) { --height--footer: var(--height--footer--tablet); }
+  /* Laptop */
+  @media (min-width: 1280px) and (max-width: 1919px) { --height--footer: var(--height--footer--laptop); }
+  /* Desktop */
+  @media (min-width: 1920px) { --height--footer: var(--height--footer--desktop); }
+
+  /* ------------------------------------------------------------------------
+  -------------------------------- PADDINGS --------------------------------
+  ------------------------------------------------------------------------ */
+
+  /* --- horizontal padding --- */
+  --horizontal-padding--phone:   16px;
+  --horizontal-padding--tablet:  32px;
+  --horizontal-padding--laptop:  10svw;
+  --horizontal-padding--desktop: 25svw;
+  /* --------------------------------------------------------------------- */
+  --horizontal-padding : var(--horizontal-padding--phone);
+
+  /* Tablet */
+  @media (min-width : 767px) and (max-width : 1279px) { --horizontal-padding: var(--horizontal-padding--tablet); }
+  /* Laptop */
+  @media (min-width: 1280px) and (max-width: 1919px) { --horizontal-padding: var(--horizontal-padding--laptop); }
+  /* Desktop */
+  @media (min-width: 1920px) { --horizontal-padding: var(--horizontal-padding--desktop); }
+
+}
